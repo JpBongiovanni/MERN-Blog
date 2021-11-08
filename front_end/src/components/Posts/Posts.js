@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import Post from "./Post/Post.js"
 
 const Posts = () => {

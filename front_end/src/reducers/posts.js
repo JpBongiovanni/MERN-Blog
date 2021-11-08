@@ -1,12 +1,10 @@
-const reducer = (state, action) => {
-    if(action.type === 'CREATE'){
-        switech (action.type){
+export default (posts=[], action) => {
+        switch (action.type){
             case 'FETCH_ALL':
-                return state;
-            case 'FETCH_ALL':
-                return state;
-            case 'FETCH_ALL':
-                return state;
+                return action.payload;
+            case 'CREATE':
+                return posts;
+            default:
+                return posts;
         }
-    }
 }
